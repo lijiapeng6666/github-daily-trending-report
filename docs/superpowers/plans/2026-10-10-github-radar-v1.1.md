@@ -13,7 +13,7 @@ Do not add AI summaries or substitute Search API results for Trending.
 - [x] Add read-only pull-request CI and daily/manual Pages publishing workflows.
 - [x] Run Python, JavaScript, formatting, and workflow checks.
 - [x] Document setup, permissions, schedule limitations, and failure recovery.
-- [ ] Enable and verify remote publishing only after the target repository is confirmed.
+- [x] Enable and verify remote publishing only after the target repository is confirmed.
 
 ## Failure Contract
 

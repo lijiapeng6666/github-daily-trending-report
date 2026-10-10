@@ -2,6 +2,8 @@
 
 GitHub Daily Trending 情报日报。支持抓取、规则分类、静态 HTML、搜索筛选、历史存档，以及 GitHub Actions 每日生成和 GitHub Pages 发布。
 
+[在线日报](https://lijiapeng6666.github.io/github-daily-trending-report/) · [历史日报](https://lijiapeng6666.github.io/github-daily-trending-report/archive.html) · [运行记录](https://github.com/lijiapeng6666/github-daily-trending-report/actions)
+
 ## 开始使用
 
 需要 Python 3.11+ 和 [uv](https://docs.astral.sh/uv/)。在项目目录运行：
