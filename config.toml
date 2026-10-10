@@ -1,0 +1,9 @@
+[report]
+limit = 20
+ai_first = true
+
+[classification]
+"AI / Agent" = ["ai", "agent", "agents", "agentic", "llm", "llms", "rag", "mcp", "machine-learning", "deep-learning", "language model", "language models", "artificial intelligence", "diffusion", "模型", "智能体"]
+"开发工具" = ["developer", "development", "cli", "editor", "compiler", "debugger", "linter", "coding", "package manager", "skills", "framework", "sdk", "开发"]
+"基础设施" = ["database", "postgres", "redis", "kubernetes", "docker", "infrastructure", "server", "storage", "network", "proxy", "数据库"]
+"应用与内容" = ["dashboard", "application", "app", "website", "notes", "tutorial", "course", "awesome", "book", "应用", "教程"]

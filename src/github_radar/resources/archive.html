@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>历史日报 · GitHub Radar</title><style>{{ radar_css | safe }}</style></head>
+<body>
+  <header class="topbar"><div class="wrap nav"><a class="brand" href="index.html">GitHub <b>Radar</b><small>OPEN SOURCE, ON YOUR RADAR.</small></a><a class="source-link" href="index.html">最新日报 ↗</a></div></header>
+  <main class="wrap"><section class="intro"><div><div class="eyebrow">THE OPEN SOURCE ARCHIVE</div><h1>历史日报</h1><p>{{ reports | length }} 份开源趋势快照</p></div></section><section class="archive-list" aria-label="日报列表">{% for report in reports %}<a class="archive-item" href="reports/{{ report.report_date }}.html"><strong>{{ report.report_date }}</strong><span>{{ report.repos | length }} 个项目 · {{ '有数据提示' if report.status == 'partial' else '采集完成' }} ↗</span></a>{% endfor %}</section></main>
+  <footer class="footer"><div class="wrap footer-content"><b>GitHub Radar</b><span>保持好奇，发现下一个值得投入的项目。</span></div></footer>
+</body>
+</html>

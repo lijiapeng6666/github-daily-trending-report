@@ -1,0 +1,130 @@
+:root {
+  --ink: #202522;
+  --muted: #6d746f;
+  --line: #e3e7e4;
+  --green: #18744c;
+  --surface: #f6f8f6;
+}
+* { box-sizing: border-box; letter-spacing: 0; }
+body { margin: 0; background: white; color: var(--ink); font: 14px/1.6 "PingFang SC", "Microsoft YaHei", sans-serif; }
+button, input, select { font: inherit; color: inherit; }
+button, select { cursor: pointer; }
+a { color: inherit; text-decoration: none; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--green); outline-offset: 3px; }
+[hidden] { display: none !important; }
+.wrap { max-width: 1220px; padding: 0 36px; margin: auto; }
+.topbar { border-bottom: 1px solid var(--line); }
+.nav { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 88px; }
+.brand { font-family: "Avenir Next", sans-serif; font-weight: 750; font-size: 27px; line-height: 1.2; }
+.brand small { display: block; font-size: 11px; font-weight: 500; color: var(--muted); margin-top: 5px; }
+.brand b { color: var(--green); }
+.nav-right { display: flex; align-items: center; gap: 24px; }
+.nav-title { font-weight: 600; }
+.nav-title:hover, .source-link:hover { text-decoration: underline; }
+.date-select { border: 1px solid var(--line); border-radius: 5px; padding: 9px 12px; background: white; max-width: 100%; }
+.notice { background: #fff7df; border-bottom: 1px solid #efdfae; color: #745a21; font-size: 12px; padding: 10px 0; }
+.notice summary { cursor: pointer; }
+.notice ul { margin: 8px 0; padding-left: 20px; overflow-wrap: anywhere; }
+.intro { display: flex; justify-content: space-between; align-items: flex-end; padding: 39px 0 28px; gap: 28px; }
+.eyebrow { font: 12px "Avenir Next", sans-serif; color: var(--green); margin: 0 0 8px; }
+h1 { font-size: 32px; line-height: 1.3; margin: 0 0 8px; font-weight: 650; }
+.intro p { color: var(--muted); margin: 0; }
+.stamp { font-size: 12px; text-align: right; flex-shrink: 0; }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 20px 0; margin-bottom: 27px; }
+.stat { padding-left: 26px; border-left: 1px solid var(--line); }
+.stat:first-child { padding-left: 0; border: 0; }
+.stat strong { font: 600 29px "Avenir Next", sans-serif; margin-right: 13px; }
+.stat span { font-size: 13px; color: var(--muted); }
+.content { display: grid; grid-template-columns: minmax(0, 1fr) 238px; gap: 40px; align-items: start; }
+.toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
+.modes { display: flex; border: 1px solid var(--line); border-radius: 5px; padding: 3px; gap: 3px; }
+.modes button { border: 0; background: transparent; padding: 6px 12px; border-radius: 3px; font-size: 12px; white-space: nowrap; }
+.modes button[aria-pressed="true"] { color: white; background: var(--ink); }
+.search { flex: 1; max-width: 285px; min-width: 100px; border: 1px solid var(--line); border-radius: 5px; padding: 9px 12px; background: var(--surface); }
+.filters { display: flex; align-items: center; gap: 8px; padding-bottom: 16px; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+.filters select { background: white; border: 1px solid var(--line); border-radius: 4px; padding: 6px 10px; font-size: 12px; max-width: 160px; }
+.count { margin-left: auto; font-size: 12px; color: var(--muted); }
+.repo { display: grid; grid-template-columns: 32px 42px minmax(0, 1fr) 108px; column-gap: 12px; padding: 24px 0; border-bottom: 1px solid var(--line); align-items: start; }
+.rank { font: 500 13px "Avenir Next", sans-serif; color: #818a83; padding-top: 10px; }
+.avatar-wrap { width: 40px; height: 40px; position: relative; border-radius: 6px; border: 1px solid var(--line); background: var(--surface); overflow: hidden; }
+.avatar { width: 100%; height: 100%; object-fit: cover; position: absolute; inset: 0; z-index: 1; }
+.avatar-fallback { display: grid; place-items: center; width: 100%; height: 100%; color: var(--green); font: 600 18px "Avenir Next", sans-serif; }
+.repo-title { font: 600 17px/1.4 "Avenir Next", "PingFang SC", sans-serif; overflow-wrap: anywhere; margin: 0 0 7px; }
+.repo-title a:hover { text-decoration: underline; color: var(--green); }
+.owner { font-weight: 400; color: var(--muted); }
+.desc { font-size: 13px; line-height: 1.75; margin: 0 0 12px; color: #505a53; overflow-wrap: anywhere; }
+.meta { display: flex; align-items: center; gap: 13px; flex-wrap: wrap; font-size: 11px; color: var(--muted); }
+.tag { font-size: 10px; color: var(--green); background: #eaf5ef; padding: 2px 7px; border-radius: 3px; overflow-wrap: anywhere; }
+.tag[data-category="开发工具"] { color: #315da0; background: #edf3fb; }
+.tag[data-category="基础设施"] { color: #926623; background: #fbf3e3; }
+.tag[data-category="其他"], .tag[data-category="应用与内容"] { color: #586960; background: #f0f3f1; }
+.dot { display: inline-block; width: 7px; height: 7px; background: #4779c5; border-radius: 50%; margin-right: 5px; }
+.growth { text-align: right; font-family: "Avenir Next", sans-serif; padding-top: 2px; }
+.growth strong { display: block; color: var(--green); font-size: 18px; font-weight: 600; }
+.growth small { color: var(--muted); font-size: 10px; }
+.growth .missing { color: var(--muted); font-size: 12px; }
+.repo-link { display: inline-block; font-size: 11px; color: var(--muted); margin-top: 13px; }
+.repo-link:hover { color: var(--green); }
+.side-section { border-top: 2px solid var(--ink); padding-top: 16px; margin-bottom: 30px; }
+.side-section h2 { font-size: 13px; margin: 0 0 18px; font-weight: 650; }
+.distribution-row { margin-bottom: 15px; }
+.distribution-label { display: flex; justify-content: space-between; gap: 8px; font-size: 12px; margin-bottom: 6px; color: #505a53; }
+.bar { height: 4px; background: #eff2f0; }
+.bar-fill { height: 100%; background: var(--green); }
+.side-section p { font-size: 12px; color: var(--muted); line-height: 1.85; margin: 8px 0; }
+.source-link { font-size: 12px; color: var(--green); }
+.tiny-label { font: 10px "Avenir Next", sans-serif; color: var(--muted); }
+.empty { text-align: center; padding: 65px 20px; }
+.empty h2 { font-size: 18px; }
+.empty p { color: var(--muted); }
+.reset { border: 1px solid var(--line); background: var(--surface); border-radius: 4px; padding: 7px 15px; }
+.footer { border-top: 1px solid var(--line); margin-top: 40px; padding: 22px 0 30px; color: var(--muted); font-size: 11px; }
+.footer-content { display: flex; justify-content: space-between; gap: 20px; }
+.footer b { color: var(--ink); font-weight: 600; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.archive-list { border-top: 1px solid var(--line); }
+.archive-item { display: flex; justify-content: space-between; align-items: center; padding: 22px 0; border-bottom: 1px solid var(--line); gap: 15px; }
+.archive-item:hover { color: var(--green); }
+.archive-item span { color: var(--muted); font-size: 12px; }
+@media (max-width: 900px) {
+  .wrap { padding: 0 24px; }
+  .content { grid-template-columns: minmax(0, 1fr) 190px; gap: 25px; }
+  .repo { grid-template-columns: 25px 34px minmax(0, 1fr) 90px; gap: 9px; }
+  .avatar-wrap { width: 32px; height: 32px; }
+  .nav-title { display: none; }
+}
+@media (max-width: 680px) {
+  .wrap { padding: 0 18px; }
+  .nav { min-height: 80px; gap: 12px; }
+  .brand { font-size: 23px; }
+  .brand small { font-size: 9px; }
+  .nav-right { gap: 0; }
+  .date-select { font-size: 11px; padding: 8px; max-width: 155px; }
+  .intro { padding: 27px 0 22px; display: block; }
+  h1 { font-size: 26px; }
+  .intro p { font-size: 12px; }
+  .stamp { text-align: left; margin-top: 12px !important; }
+  .stats { padding: 17px 0; margin-bottom: 23px; }
+  .stat { padding-left: 15px; }
+  .stat strong { display: block; font-size: 26px; margin: 0 0 2px; }
+  .stat span { font-size: 11px; }
+  .content { display: block; }
+  .toolbar { flex-wrap: wrap; }
+  .modes { width: 100%; }
+  .modes button { flex: 1; }
+  .search { max-width: none; flex-basis: 100%; font-size: 13px; }
+  .filters { gap: 7px; }
+  .filters select { padding: 6px; font-size: 11px; max-width: 40%; }
+  .count { width: 100%; margin: 4px 0 0; }
+  .repo { grid-template-columns: 23px 32px minmax(0, 1fr); gap: 8px; padding: 20px 0; }
+  .repo-title { font-size: 15px; }
+  .growth { grid-column: 3; display: flex; align-items: center; gap: 7px; text-align: left; margin-top: 10px; }
+  .growth strong { font-size: 15px; }
+  .growth .repo-link { margin: 0 0 0 auto; }
+  .desc { font-size: 12px; margin-bottom: 9px; }
+  .meta { gap: 9px; }
+  aside { margin-top: 32px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .side-section { margin-bottom: 0; }
+  .footer-content { display: block; }
+  .footer-content span { display: block; margin-top: 6px; }
+}
