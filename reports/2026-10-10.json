@@ -2,7 +2,7 @@
   "schema_version": 1,
   "report_date": "2026-10-10",
   "timezone": "Asia/Shanghai",
-  "fetched_at": "2026-10-10T15:09:16.291758+08:00",
+  "fetched_at": "2026-10-10T15:10:46.711854+08:00",
   "source_url": "https://github.com/trending?since=daily",
   "status": "partial",
   "warnings": [
@@ -37,9 +37,9 @@
         "reverse-engineering",
         "static-analysis"
       ],
-      "stars_total": 54404,
+      "stars_total": 54435,
       "stars_today": 14927,
-      "metadata_fetched_at": "2026-10-10T15:09:16.743773+08:00",
+      "metadata_fetched_at": "2026-10-10T15:10:47.185888+08:00",
       "category": "AI / Agent",
       "ai_tags": [
         "Agent",
@@ -66,9 +66,9 @@
         "spir-v",
         "vulkan"
       ],
-      "stars_total": 23388,
+      "stars_total": 23396,
       "stars_today": 5868,
-      "metadata_fetched_at": "2026-10-10T15:09:17.071171+08:00",
+      "metadata_fetched_at": "2026-10-10T15:10:47.408804+08:00",
       "category": "其他",
       "ai_tags": [],
       "classification_reason": null,
@@ -83,9 +83,9 @@
       "description_source": "github_api",
       "language": "Shell",
       "topics": [],
-      "stars_total": 283223,
+      "stars_total": 283225,
       "stars_today": 1687,
-      "metadata_fetched_at": "2026-10-10T15:09:17.343201+08:00",
+      "metadata_fetched_at": "2026-10-10T15:10:47.679481+08:00",
       "category": "AI / Agent",
       "ai_tags": [
         "Agent"
@@ -113,7 +113,7 @@
       ],
       "stars_total": 48221,
       "stars_today": 1739,
-      "metadata_fetched_at": "2026-10-10T15:09:17.590830+08:00",
+      "metadata_fetched_at": "2026-10-10T15:10:47.941519+08:00",
       "category": "AI / Agent",
       "ai_tags": [
         "Agent"
@@ -137,9 +137,9 @@
         "harness",
         "repository-level-context"
       ],
-      "stars_total": 45526,
+      "stars_total": 45527,
       "stars_today": 326,
-      "metadata_fetched_at": "2026-10-10T15:09:17.831222+08:00",
+      "metadata_fetched_at": "2026-10-10T15:10:48.193792+08:00",
       "category": "AI / Agent",
       "ai_tags": [
         "Agent",
@@ -159,7 +159,7 @@
       "topics": [],
       "stars_total": 28437,
       "stars_today": 709,
-      "metadata_fetched_at": "2026-10-10T15:09:18.119060+08:00",
+      "metadata_fetched_at": "2026-10-10T15:10:48.460425+08:00",
       "category": "其他",
       "ai_tags": [],
       "classification_reason": null,
@@ -193,7 +193,7 @@
       ],
       "stars_total": 60796,
       "stars_today": 95,
-      "metadata_fetched_at": "2026-10-10T15:09:18.420548+08:00",
+      "metadata_fetched_at": "2026-10-10T15:10:48.738863+08:00",
       "category": "AI / Agent",
       "ai_tags": [
         "LLM",
@@ -220,7 +220,7 @@
       ],
       "stars_total": 104189,
       "stars_today": 436,
-      "metadata_fetched_at": "2026-10-10T15:09:18.676905+08:00",
+      "metadata_fetched_at": "2026-10-10T15:10:48.959042+08:00",
       "category": "AI / Agent",
       "ai_tags": [
         "Agent"
@@ -243,9 +243,9 @@
         "filmmaking",
         "imagegeneration"
       ],
-      "stars_total": 12248,
+      "stars_total": 12253,
       "stars_today": 3752,
-      "metadata_fetched_at": "2026-10-10T15:09:18.958826+08:00",
+      "metadata_fetched_at": "2026-10-10T15:10:49.244844+08:00",
       "category": "AI / Agent",
       "ai_tags": [],
       "classification_reason": "关键词：ai",
@@ -262,7 +262,7 @@
       "topics": [],
       "stars_total": 17816,
       "stars_today": 110,
-      "metadata_fetched_at": "2026-10-10T15:09:19.255353+08:00",
+      "metadata_fetched_at": "2026-10-10T15:10:49.464779+08:00",
       "category": "其他",
       "ai_tags": [],
       "classification_reason": null,
@@ -277,9 +277,9 @@
       "description_source": "github_api",
       "language": null,
       "topics": [],
-      "stars_total": 5580,
+      "stars_total": 5581,
       "stars_today": 65,
-      "metadata_fetched_at": "2026-10-10T15:09:19.555675+08:00",
+      "metadata_fetched_at": "2026-10-10T15:10:49.666848+08:00",
       "category": "AI / Agent",
       "ai_tags": [
         "Agent"
