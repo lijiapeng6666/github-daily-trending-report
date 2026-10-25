@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-10-25",
+  "timezone": "Asia/Shanghai",
+  "fetched_at": "2026-10-25T12:40:53.170916+08:00",
+  "source_url": "https://github.com/trending?since=daily",
+  "status": "partial",
+  "warnings": [
+    "榜单仅采集到 10 个项目，目标为 20 个。"
+  ],
+  "repos": [
+    {
+      "full_name": "cloudflare/security-audit-skill",
+      "trending_rank": 1,
+      "description_original": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "description_source": "github_api",
+      "language": "JavaScript",
+      "topics": [],
+      "stars_total": 44944,
+      "stars_today": 2264,
+      "metadata_fetched_at": "2026-10-25T12:40:53.616343+08:00",
+      "category": "AI / Agent",
+      "ai_tags": [
+        "Agent"
+      ],
+      "classification_reason": "关键词：agent",
+      "owner": "cloudflare",
+      "name": "security-audit-skill",
+      "html_url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "full_name": "NVIDIA/OpenShell",
+      "trending_rank": 2,
+      "description_original": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "description_source": "github_api",
+      "language": "Rust",
+      "topics": [],
+      "stars_total": 19565,
+      "stars_today": 896,
+      "metadata_fetched_at": "2026-10-25T12:40:53.925712+08:00",
+      "category": "AI / Agent",
+      "ai_tags": [
+        "Agent"
+      ],
+      "classification_reason": "关键词：ai",
+      "owner": "NVIDIA",
+      "name": "OpenShell",
+      "html_url": "https://github.com/NVIDIA/OpenShell"
+    },
+    {
+      "full_name": "aws/agent-toolkit-for-aws",
+      "trending_rank": 3,
+      "description_original": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+      "description_source": "github_api",
+      "language": "Python",
+      "topics": [],
+      "stars_total": 3176,
+      "stars_today": 13,
+      "metadata_fetched_at": "2026-10-25T12:40:54.293520+08:00",
+      "category": "AI / Agent",
+      "ai_tags": [
+        "Agent",
+        "MCP"
+      ],
+      "classification_reason": "关键词：ai",
+      "owner": "aws",
+      "name": "agent-toolkit-for-aws",
+      "html_url": "https://github.com/aws/agent-toolkit-for-aws"
+    },
+    {
+      "full_name": "Nutlope/hallmark",
+      "trending_rank": 4,
+      "description_original": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "description_source": "github_api",
+      "language": "CSS",
+      "topics": [],
+      "stars_total": 32330,
+      "stars_today": 455,
+      "metadata_fetched_at": "2026-10-25T12:40:54.559098+08:00",
+      "category": "AI / Agent",
+      "ai_tags": [],
+      "classification_reason": "关键词：ai",
+      "owner": "Nutlope",
+      "name": "hallmark",
+      "html_url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "full_name": "luongnv89/claude-howto",
+      "trending_rank": 5,
+      "description_original": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "description_source": "github_api",
+      "language": "Python",
+      "topics": [
+        "claude-code",
+        "guide",
+        "tutorial"
+      ],
+      "stars_total": 44663,
+      "stars_today": 392,
+      "metadata_fetched_at": "2026-10-25T12:40:54.832805+08:00",
+      "category": "AI / Agent",
+      "ai_tags": [
+        "Agent"
+      ],
+      "classification_reason": "关键词：agents",
+      "owner": "luongnv89",
+      "name": "claude-howto",
+      "html_url": "https://github.com/luongnv89/claude-howto"
+    },
+    {
+      "full_name": "pbakaus/impeccable",
+      "trending_rank": 6,
+      "description_original": "The design language that makes your AI harness better at design.",
+      "description_source": "github_api",
+      "language": "Rust",
+      "topics": [],
+      "stars_total": 86568,
+      "stars_today": 619,
+      "metadata_fetched_at": "2026-10-25T12:40:55.122225+08:00",
+      "category": "AI / Agent",
+      "ai_tags": [],
+      "classification_reason": "关键词：ai",
+      "owner": "pbakaus",
+      "name": "impeccable",
+      "html_url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "full_name": "pollen-robotics/microduck",
+      "trending_rank": 7,
+      "description_original": "A Tiny biped duck robot 🦆",
+      "description_source": "github_api",
+      "language": "Rust",
+      "topics": [],
+      "stars_total": 11082,
+      "stars_today": 319,
+      "metadata_fetched_at": "2026-10-25T12:40:55.461661+08:00",
+      "category": "其他",
+      "ai_tags": [],
+      "classification_reason": null,
+      "owner": "pollen-robotics",
+      "name": "microduck",
+      "html_url": "https://github.com/pollen-robotics/microduck"
+    },
+    {
+      "full_name": "google-gemini/gemini-cli",
+      "trending_rank": 8,
+      "description_original": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "description_source": "github_api",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "cli",
+        "gemini",
+        "gemini-api",
+        "mcp-client",
+        "mcp-server"
+      ],
+      "stars_total": 108162,
+      "stars_today": 44,
+      "metadata_fetched_at": "2026-10-25T12:40:55.769431+08:00",
+      "category": "AI / Agent",
+      "ai_tags": [
+        "Agent",
+        "MCP"
+      ],
+      "classification_reason": "关键词：ai",
+      "owner": "google-gemini",
+      "name": "gemini-cli",
+      "html_url": "https://github.com/google-gemini/gemini-cli"
+    },
+    {
+      "full_name": "jbiaojerry/ebook-treasure-chest",
+      "trending_rank": 9,
+      "description_original": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。",
+      "description_source": "github_api",
+      "language": "Python",
+      "topics": [],
+      "stars_total": 22770,
+      "stars_today": 227,
+      "metadata_fetched_at": "2026-10-25T12:40:56.042997+08:00",
+      "category": "应用与内容",
+      "ai_tags": [],
+      "classification_reason": "关键词：app",
+      "owner": "jbiaojerry",
+      "name": "ebook-treasure-chest",
+      "html_url": "https://github.com/jbiaojerry/ebook-treasure-chest"
+    },
+    {
+      "full_name": "makecindy/cindy",
+      "trending_rank": 10,
+      "description_original": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "description_source": "github_api",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "ai-agent",
+        "ai-assistant",
+        "android",
+        "claude-code",
+        "codex",
+        "electron",
+        "ios",
+        "llm",
+        "macos",
+        "react-native",
+        "typescript",
+        "windows"
+      ],
+      "stars_total": 4195,
+      "stars_today": 477,
+      "metadata_fetched_at": "2026-10-25T12:40:56.311818+08:00",
+      "category": "AI / Agent",
+      "ai_tags": [
+        "Agent",
+        "LLM"
+      ],
+      "classification_reason": "关键词：ai",
+      "owner": "makecindy",
+      "name": "cindy",
+      "html_url": "https://github.com/makecindy/cindy"
+    }
+  ]
+}
