@@ -1,0 +1,290 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-10",
+  "timezone": "Asia/Shanghai",
+  "fetched_at": "2026-11-10T15:17:32.949838+08:00",
+  "source_url": "https://github.com/trending?since=daily",
+  "status": "partial",
+  "warnings": [
+    "榜单仅采集到 11 个项目，目标为 20 个。"
+  ],
+  "repos": [
+    {
+      "full_name": "anthropics/skills",
+      "trending_rank": 1,
+      "description_original": "Public repository for Agent Skills",
+      "description_source": "github_api",
+      "language": "Python",
+      "topics": [
+        "agent-skills"
+      ],
+      "stars_total": 191432,
+      "stars_today": 1038,
+      "metadata_fetched_at": "2026-11-10T15:17:33.444635+08:00",
+      "category": "AI / Agent",
+      "ai_tags": [
+        "Agent"
+      ],
+      "classification_reason": "关键词：agent",
+      "owner": "anthropics",
+      "name": "skills",
+      "html_url": "https://github.com/anthropics/skills"
+    },
+    {
+      "full_name": "meta/astryx",
+      "trending_rank": 2,
+      "description_original": "An open source design system that's fully customizable and agent ready",
+      "description_source": "github_api",
+      "language": "TypeScript",
+      "topics": [],
+      "stars_total": 20886,
+      "stars_today": 3278,
+      "metadata_fetched_at": "2026-11-10T15:17:33.721697+08:00",
+      "category": "AI / Agent",
+      "ai_tags": [
+        "Agent"
+      ],
+      "classification_reason": "关键词：agent",
+      "owner": "meta",
+      "name": "astryx",
+      "html_url": "https://github.com/meta/astryx"
+    },
+    {
+      "full_name": "sherlock-project/sherlock",
+      "trending_rank": 3,
+      "description_original": "Hunt down social media accounts by username across social networks",
+      "description_source": "github_api",
+      "language": "Python",
+      "topics": [
+        "cli",
+        "cti",
+        "cybersecurity",
+        "forensics",
+        "hacktoberfest",
+        "information-gathering",
+        "infosec",
+        "linux",
+        "osint",
+        "pentesting",
+        "python",
+        "python3",
+        "reconnaissance",
+        "redteam",
+        "sherlock",
+        "tools"
+      ],
+      "stars_total": 107777,
+      "stars_today": 4267,
+      "metadata_fetched_at": "2026-11-10T15:17:34.050365+08:00",
+      "category": "开发工具",
+      "ai_tags": [],
+      "classification_reason": "关键词：cli",
+      "owner": "sherlock-project",
+      "name": "sherlock",
+      "html_url": "https://github.com/sherlock-project/sherlock"
+    },
+    {
+      "full_name": "google-deepmind/mujoco",
+      "trending_rank": 4,
+      "description_original": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "description_source": "github_api",
+      "language": "C++",
+      "topics": [
+        "mujoco",
+        "physics",
+        "robotics"
+      ],
+      "stars_total": 17060,
+      "stars_today": 574,
+      "metadata_fetched_at": "2026-11-10T15:17:34.284640+08:00",
+      "category": "其他",
+      "ai_tags": [],
+      "classification_reason": null,
+      "owner": "google-deepmind",
+      "name": "mujoco",
+      "html_url": "https://github.com/google-deepmind/mujoco"
+    },
+    {
+      "full_name": "anthropics/claude-quickstarts",
+      "trending_rank": 5,
+      "description_original": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "description_source": "github_api",
+      "language": "Python",
+      "topics": [],
+      "stars_total": 20165,
+      "stars_today": 551,
+      "metadata_fetched_at": "2026-11-10T15:17:34.534111+08:00",
+      "category": "其他",
+      "ai_tags": [],
+      "classification_reason": null,
+      "owner": "anthropics",
+      "name": "claude-quickstarts",
+      "html_url": "https://github.com/anthropics/claude-quickstarts"
+    },
+    {
+      "full_name": "garrytan/gbrain",
+      "trending_rank": 6,
+      "description_original": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+      "description_source": "github_api",
+      "language": "TypeScript",
+      "topics": [],
+      "stars_total": 32315,
+      "stars_today": 216,
+      "metadata_fetched_at": "2026-11-10T15:17:34.823060+08:00",
+      "category": "AI / Agent",
+      "ai_tags": [
+        "Agent"
+      ],
+      "classification_reason": "关键词：agent",
+      "owner": "garrytan",
+      "name": "gbrain",
+      "html_url": "https://github.com/garrytan/gbrain"
+    },
+    {
+      "full_name": "vercel-labs/agent-browser",
+      "trending_rank": 7,
+      "description_original": "Browser automation CLI for AI agents",
+      "description_source": "github_api",
+      "language": "Rust",
+      "topics": [],
+      "stars_total": 48723,
+      "stars_today": 916,
+      "metadata_fetched_at": "2026-11-10T15:17:35.066657+08:00",
+      "category": "AI / Agent",
+      "ai_tags": [
+        "Agent"
+      ],
+      "classification_reason": "关键词：ai",
+      "owner": "vercel-labs",
+      "name": "agent-browser",
+      "html_url": "https://github.com/vercel-labs/agent-browser"
+    },
+    {
+      "full_name": "ruvnet/RuView",
+      "trending_rank": 8,
+      "description_original": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "description_source": "github_api",
+      "language": "Rust",
+      "topics": [
+        "claude",
+        "claude-code",
+        "esp32",
+        "firmware",
+        "home-assistant",
+        "home-automation",
+        "iot",
+        "mcp",
+        "monitoring",
+        "networking",
+        "pose-estimation",
+        "react",
+        "rf",
+        "self-learning",
+        "spatial-intelligence",
+        "typescript",
+        "webassembly",
+        "wifi",
+        "wifi-security"
+      ],
+      "stars_total": 103669,
+      "stars_today": 172,
+      "metadata_fetched_at": "2026-11-10T15:17:35.328059+08:00",
+      "category": "AI / Agent",
+      "ai_tags": [
+        "MCP"
+      ],
+      "classification_reason": "关键词：mcp",
+      "owner": "ruvnet",
+      "name": "RuView",
+      "html_url": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "trending_rank": 9,
+      "description_original": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "description_source": "github_api",
+      "language": "Python",
+      "topics": [
+        "a-stock",
+        "ai-agent",
+        "aigc",
+        "llm",
+        "quant",
+        "quantitative-finance",
+        "quantitative-trading"
+      ],
+      "stars_total": 69247,
+      "stars_today": 506,
+      "metadata_fetched_at": "2026-11-10T15:17:35.537085+08:00",
+      "category": "AI / Agent",
+      "ai_tags": [
+        "Agent",
+        "LLM"
+      ],
+      "classification_reason": "关键词：ai",
+      "owner": "ZhuLinsen",
+      "name": "daily_stock_analysis",
+      "html_url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+    },
+    {
+      "full_name": "homeassistant-ai/ha-mcp",
+      "trending_rank": 10,
+      "description_original": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+      "description_source": "github_api",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "claude",
+        "hacs",
+        "home-assistant",
+        "home-automation",
+        "llm",
+        "mcp",
+        "model-context-protocol"
+      ],
+      "stars_total": 6181,
+      "stars_today": 31,
+      "metadata_fetched_at": "2026-11-10T15:17:36.040757+08:00",
+      "category": "AI / Agent",
+      "ai_tags": [
+        "LLM",
+        "MCP"
+      ],
+      "classification_reason": "关键词：ai",
+      "owner": "homeassistant-ai",
+      "name": "ha-mcp",
+      "html_url": "https://github.com/homeassistant-ai/ha-mcp"
+    },
+    {
+      "full_name": "milind-soni/OpenMausBot",
+      "trending_rank": 11,
+      "description_original": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "description_source": "github_api",
+      "language": "TypeScript",
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "computer-use",
+        "docker",
+        "electron",
+        "grok",
+        "grok-bot",
+        "grok-bot-alternative",
+        "self-hosted",
+        "typescript"
+      ],
+      "stars_total": 20099,
+      "stars_today": 1587,
+      "metadata_fetched_at": "2026-11-10T15:17:36.382733+08:00",
+      "category": "AI / Agent",
+      "ai_tags": [
+        "Agent"
+      ],
+      "classification_reason": "关键词：ai",
+      "owner": "milind-soni",
+      "name": "OpenMausBot",
+      "html_url": "https://github.com/milind-soni/OpenMausBot"
+    }
+  ]
+}
